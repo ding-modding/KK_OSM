@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(head:*)",
+      "Bash(python main_pipeline.py:*)",
+      "Bash(pip install:*)",
+      "Bash(tasklist:*)",
+      "Bash(python:*)",
+      "Bash(taskkill:*)",
+      "Bash(copy \"data\\\\hongdae-geo-features.pkl\" \"src\\\\data\\\\hongdae-geo-features.pkl\")",
+      "Bash(cmd /c copy \"data\\\\hongdae-geo-features.pkl\" \"src\\\\data\\\\hongdae-geo-features.pkl\")"
+    ]
+  }
+}
