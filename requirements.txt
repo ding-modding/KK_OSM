@@ -3,4 +3,5 @@ osmnx
 folium
 matplotlib
 pandas
-pyrosm
+rtree
+#pyrosm
