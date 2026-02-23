@@ -1,0 +1,23 @@
+[project]
+name = "osm-pedestrian-network"
+version = "0.1.0"
+description = "OSM 데이터를 활용한 보행자 네트워크 추출 및 구역 분리 프로젝트"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "osmnx>=1.9.3",
+    "networkx>=3.2.1",
+    "geopandas>=0.14.3",
+    "shapely>=2.0.3",
+    "contextily>=1.7.0",
+    "pandas>=2.3.3",
+]
+
+# 패키지 빌드 설정([build-system]) 삭제 완료
+
+# uv 최신 표준 문법으로 dev 패키지 그룹화
+[dependency-groups]
+dev = [
+    "jupyter>=1.0.0",
+    "matplotlib>=3.8.3",
+]
